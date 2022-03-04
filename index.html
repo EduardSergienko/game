@@ -1,24 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins&family=Roboto:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/main.min.css" />
-    <title>Document</title>
-  </head>
-  <body></body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins&family=Roboto:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+			integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./css/main.min.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header class="header">
+			<section class="hero">
+				<div class="container">
+					<nav class="navigation">
+						<img class="navigation__logo" src="./img/logo.svg" alt="" />
+						<ul class="navigation__list">
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">Home</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">Features</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">How it works</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#" class="navigation__link">Get apps</a>
+							</li>
+						</ul>
+						<button type="button" class="navigation__btn">Sing Up</button>
+					</nav>
+				</div>
+				<div class="container">
+					<p class="hero__text">Adding Fun to your Life.</p>
+					<h1 class="hero__title">Best Games At Best Price.</h1>
+					<p class="hero__descrpt">
+						<span class="hero_descrpt-wrap"
+							>Starting a Game Store Business</span
+						>
+						Can Be An Exciting Way to achieve your entrepreneurial dreams while
+						doing something that you love.
+					</p>
+					<ul class="hero__btn-list">
+						<li class="hero__btn-item">
+							<button type="button" class="hero__btn">Try For Free</button>
+						</li>
+						<li class="hero__btn-item">
+							<button type="button" class="hero__btn">Get The Apps</button>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</header>
+		<section class="features">
+			<div class="container">
+				<h2 class="features__title">
+					Contrary to popular belief, Lorem Ipsum is not simply random text
+				</h2>
+				<p class="features__descrpt">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+					eiusmod tempor incididunt ut labore.
+				</p>
+
+				<ul class="features__list">
+					<li class="features__item">
+						<div class="features__svg-wrap">
+							<svg class="features__svg" width="37" height="41">
+								<use href="./img/icons.svg#perspective"></use>
+							</svg>
+						</div>
+
+						<h3 class="features__about">Game perspective</h3>
+						<p class="features__text">
+							the other hand, we denounce with righteous indignation and dislike
+							men who.
+						</p>
+						<div class="features__item-fx"></div>
+					</li>
+					<li class="features__item">
+						<div class="features__svg-wrap">
+							<svg class="features__svg" width="38" height="38">
+								<use href="./img/icons.svg#documented"></use>
+							</svg>
+						</div>
+						<h3 class="features__about">Well Documented</h3>
+						<p class="features__text">
+							the other hand, we denounce with righteous indignation and dislike
+							men who.
+						</p>
+					</li>
+					<li class="features__item">
+						<div class="features__svg-wrap">
+							<svg class="features__svg" width="40" height="40">
+								<use href="./img/icons.svg#animation"></use>
+							</svg>
+						</div>
+						<h3 class="features__about">Subtle Animations</h3>
+						<p class="features__text">
+							the other hand, we denounce with righteous indignation and dislike
+							men who.
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="characters">
+			<div class="container char-wrap">
+				<div class="characters__img-wrap">
+					<img src="./img/Rectangle.jpg" alt="">
+					<img class="play-button" src="./img/play_batton.png" alt="">
+				</div>
+				<div class="how-work">
+				<h2 class="how-work__title">how it works!</h2>
+				<h3 class="how-work__descrpt">bringing game to Everyone LIfe!</h3>
+				<p class="how-work__text">InnoGames is one of the worldwide leading developers and publishers of online games. Currently, more than 400 people from over 30 countries are working in the office in Hamburg. Community management,</p>
+				<p class="how-work__subtext">development and system administration work seamlessly together. This, combined with close contact to our players, creates a strong foundation that promotes the continued</p>
+				<button class="how-work__button" type="button">View Characters</button>
+				</div>
+				
+			</div>
+		</section>
+
+		<section class="playing">
+			<div class="playing__container">
+				<h3 class="playing__subtitle">Playing is a new Skill</h3>
+				<h2 class="playing__title">Hold different,Play different</h2>
+				<p class="playing__text">Starting a game store business can be an exciting way to achieve your entrepreneurial dreams while doing something that you love.</p>
+				<p class="playing__subtext">Game stores are highly specialized and interesting shops selling entertainment products.</p>
+			</div>
+		</section>
+	</body>
 </html>
