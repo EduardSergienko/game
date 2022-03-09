@@ -1,0 +1,78 @@
+.pricing-section {
+	padding-top: 130px;
+	padding-bottom: 130px;
+	background-color: #3e3457;
+	background-image: url(/img/rain.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pricing__title {
+	font-weight: bold;
+	font-size: 39px;
+	line-height: 46px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.pricing__text {
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+// ================CARDS==============
+
+.pricing__card-link {
+	opacity: 1;
+	transition: transform 250ms;
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+
+.pricing__cards {
+	display: flex;
+	justify-content: space-between;
+}
+.pricing-card {
+}
+.pricing-card__img {
+	border-radius: 10px;
+	margin-bottom: 29px;
+}
+.pricing-card__title {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+
+	text-transform: capitalize;
+	margin-bottom: 12px;
+}
+.pricing-card__text {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 20px;
+}
+.pricing-card__list {
+	display: flex;
+}
+.pricing-card__discount {
+	background: #4ea4dc;
+	border-radius: 3px;
+	padding: 3px 2px 1px 6px;
+	margin-right: 10px;
+}
+.pricing-card__oldprice {
+	font-size: 16px;
+	line-height: 19px;
+	text-decoration-line: line-through;
+
+	color: #ffffff;
+
+	opacity: 0.6;
+	margin-right: 9px;
+}
+.pricing-card__newprise {
+	font-size: 16px;
+	line-height: 19px;
+}

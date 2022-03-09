@@ -1,0 +1,43 @@
+.download {
+	height: 675px;
+	margin: 0 auto;
+	background-color: #3e3457;
+
+	background-image: url(/img/dragon.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
+}
+.download__wrap {
+	background-image: url(/img/tel.png);
+	background-repeat: no-repeat;
+
+	background-size: contain;
+	height: 675px;
+}
+.download__content {
+	width: 387px;
+	margin-left: 816px;
+	padding-top: 338px;
+}
+
+.download__title {
+	font-weight: 800;
+	font-size: 39px;
+	line-height: 140%;
+	margin-bottom: 15px;
+}
+.download__text {
+	font-size: 16px;
+	line-height: 140%;
+	margin-bottom: 35px;
+}
+.download__item {
+	margin-right: 20px;
+	&:nth-child(2) {
+		margin-right: 0;
+	}
+}
+.download__links {
+	display: flex;
+}

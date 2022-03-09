@@ -69,7 +69,6 @@ img {
 
 .header {
   position: relative;
-  max-width: 1600px;
   height: 850px;
   margin: 0 auto;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(24.45%, rgba(48, 47, 79, 0.94)), color-stop(42.53%, rgba(47, 47, 79, 0.87)), color-stop(91.42%, rgba(45, 45, 77, 0.24))), url(/img/hero_background.png);
@@ -409,6 +408,10 @@ img {
 }
 
 .char-wrap {
+  width: 1334px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -431,8 +434,288 @@ img {
   line-height: 160%;
 }
 
+.playing__container {
+  width: 1334px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .playing {
-  background: -webkit-gradient(linear, left top, right top, from(#3B3253), to(rgba(57, 48, 80, 0)));
-  background: linear-gradient(90deg, #3B3253 0%, rgba(57, 48, 80, 0) 100%);
-  background: #3E3457;
+  background: #3e3457;
+  background-image: -webkit-gradient(linear, left top, right top, from(#3b3253), to(rgba(57, 48, 80, 0)));
+  background-image: linear-gradient(90deg, #3b3253 0%, rgba(57, 48, 80, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 118px;
+}
+
+.playing__content {
+  max-width: 365px;
+  position: relative;
+}
+
+.playing__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--activity-text-color);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.playing__link {
+  position: absolute;
+  top: 2px;
+  left: 213px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  opacity: 1;
+  color: #ffffff;
+  padding: 2px 9px 3px 9px;
+  background-color: #000;
+  border-radius: 11.5px;
+}
+
+.playing__title {
+  font-weight: 800;
+  font-size: 39px;
+  line-height: 140%;
+  margin-bottom: 25px;
+}
+
+.playing__text {
+  line-height: 160%;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 25px;
+}
+
+.playing__text-wrap {
+  font-weight: 500;
+  line-height: 160%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.playing__subtext {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 40px;
+}
+
+.playing__subtext-wrap {
+  font-weight: 600;
+  line-height: 160%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.playing__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 74px;
+}
+
+.playing__button-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.playing__button-try {
+  padding: 15px 55.5px;
+  display: block;
+  cursor: pointer;
+  color: var(--activity-text-color);
+  background-color: transparent;
+  border: 1px solid rgba(78, 164, 220, 0.3);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  -webkit-transition: background-color, color, 250ms;
+  transition: background-color, color, 250ms;
+  text-transform: capitalize;
+}
+.playing__button-try:hover {
+  background-color: var(--activity-text-color);
+  color: var(--main-text-color);
+}
+
+.playing__button-dwnld {
+  padding: 15px 47.5px;
+  display: block;
+  cursor: pointer;
+  color: var(--activity-text-color);
+  background-color: transparent;
+  border: 1px solid rgba(78, 164, 220, 0.3);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  -webkit-transition: background-color, color, 250ms;
+  transition: background-color, color, 250ms;
+  text-transform: capitalize;
+}
+.playing__button-dwnld:hover {
+  background-color: var(--activity-text-color);
+  color: var(--main-text-color);
+}
+
+.download {
+  height: 675px;
+  margin: 0 auto;
+  background-color: #3e3457;
+  background-image: url(/img/dragon.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.download__wrap {
+  background-image: url(/img/tel.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 675px;
+}
+
+.download__content {
+  width: 387px;
+  margin-left: 816px;
+  padding-top: 338px;
+}
+
+.download__title {
+  font-weight: 800;
+  font-size: 39px;
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+
+.download__text {
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 35px;
+}
+
+.download__item {
+  margin-right: 20px;
+}
+.download__item:nth-child(2) {
+  margin-right: 0;
+}
+
+.download__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pricing-section {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color: #3e3457;
+  background-image: url(/img/rain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pricing__title {
+  font-weight: bold;
+  font-size: 39px;
+  line-height: 46px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pricing__text {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pricing__card-link {
+  opacity: 1;
+  -webkit-transition: -webkit-transform 250ms;
+  transition: -webkit-transform 250ms;
+  transition: transform 250ms;
+  transition: transform 250ms, -webkit-transform 250ms;
+}
+.pricing__card-link:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.pricing__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pricing-card__img {
+  border-radius: 10px;
+  margin-bottom: 29px;
+}
+
+.pricing-card__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.pricing-card__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+
+.pricing-card__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pricing-card__discount {
+  background: #4ea4dc;
+  border-radius: 3px;
+  padding: 3px 2px 1px 6px;
+  margin-right: 10px;
+}
+
+.pricing-card__oldprice {
+  font-size: 16px;
+  line-height: 19px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #ffffff;
+  opacity: 0.6;
+  margin-right: 9px;
+}
+
+.pricing-card__newprise {
+  font-size: 16px;
+  line-height: 19px;
 }/*# sourceMappingURL=main.css.map */
